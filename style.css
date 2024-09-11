@@ -1,0 +1,114 @@
+
+body{
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0px;
+    font-size: 1.5vw;  /* percentage of screen used - laptop, monitor etc */
+    font-size: 2.5vh;
+}
+
+#logo {
+    color: white;
+    margin: 0px;
+    padding: 8px;
+    font-family: "Fredoka One", sans-serif;
+    width: 20%;
+    /* border-radius: 40% */
+    text-shadow: 
+        -1px -1px 0 rgb(0, 0, 0),  
+         1px -1px 0 rgb(0, 0, 0),
+        -1px  1px 0 rgb(0, 0, 0),
+         1px  1px 0 rgb(0, 0, 0); /* Add shadows in all directions */
+}
+
+ul{
+    margin: 0px;
+}
+
+body > header {
+    background-color: orange;
+    display: flex;
+    height: 12vh;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* color: rgb(255, 255, 255); RGB METHOD */
+    /* color: #093610b6;  Or can use hexadecimal values */
+    /* colour pickers: use colors.lol website, or webdesignranking lolcolours */
+
+
+body > header > nav > ul {
+    list-style: none; 
+    text-decoration: none;
+}
+
+#nav-ul {
+    display: flex;
+    
+}
+
+#nav-ul > li {
+    padding: 8px;
+    margin: 16px;
+
+}
+
+.navbutton {
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    border: 1px solid white ;
+    border-radius: 10%;
+}
+
+body > main article {
+    width: 70%;
+    margin: auto; /* centres everything */
+}
+
+#main-content{
+    display: flex;
+}
+
+#main-content aside {
+    width: 20%;
+    justify-content: space-around;
+}
+
+#main-content > div {
+    width: 70%;
+}
+
+form {
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+body > footer{
+    display: flex;
+    background-color: orange;
+    padding: 16px;
+    text-align: center;
+}
+
+#footer-ul {
+    display: flex;
+    list-style: none
+}
+
+#footer-ul > div > li {
+    margin-left: 12px;
+}
+
+#footer-ul > div > li > a{
+    color: white;
+    text-decoration: none;
+}
+
+img {
+    border-radius: 100%; /* percentage shows how rounded the edges of the photo will be */
+}
+
